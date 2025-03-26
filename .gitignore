@@ -1,0 +1,27 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore IDE/editor metadata
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS resource forks
+._*
+
+# Ignore Git metadata backups
+*.orig
+
+# Optional: Ignore any future scripts or tooling
+scripts/
+*.sh
+*.bat
+
+# Optional: Ignore zipped/compressed source dumps
+*.zip
+*.tar
+*.gz
